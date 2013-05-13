@@ -20,23 +20,7 @@ namespace SS.Ynote.Classic
 			InitializeComponent();
 		
             testftp.ftpobject.statusChange += new EventHandler<statusChangeEventArgs>(ftpobject_statusChange);
-            testftp.ftpobject.downloadComplete += new EventHandler<downloadCompleteEventArgs>(ftpobject_downloadComplete);
-            testftp.ftpobject.uploadComplete += new EventHandler<uploadCompleteEventArgs>(ftpobject_uploadComplete);
 		}
-
-        void ftpobject_uploadComplete(object sender, uploadCompleteEventArgs e)
-        {
-            txtMessages.Text += "Upload complete: " + e.filename + Environment.NewLine;
-            txtMessages.Text += "Refreshing the remote folder..." + e.filename + Environment.NewLine;
-            refreshRemote();
-        }
-
-        void ftpobject_downloadComplete(object sender, downloadCompleteEventArgs e)
-        {
-            txtMessages.Text += "Download complete: " + e.filename+Environment.NewLine;
-            txtMessages.Text += "Refreshing the local folder..." + e.filename + Environment.NewLine;
-         
-        }
 
         void ftpobject_statusChange(object sender, statusChangeEventArgs e)
         {
@@ -46,11 +30,13 @@ namespace SS.Ynote.Classic
 		
 		void MainFormLoad(object sender, EventArgs e)
 		{
+            this.txtHost.Text = Properties.Settings.Default.Host;
+            txtUsername.Text = Properties.Settings.Default.Username;
+            txtPassword.Text = Properties.Settings.Default.Password;
             this.Text += " " + ReflectionUtils.GetVersion();
-            if (!System.IO.Directory.Exists(@"C:\ftptest"))
-            {
-                System.IO.Directory.CreateDirectory(@"C:\ftptest");
-            }
+            if (Properties.Settings.Default.Host == "")
+            { }else{BtnConnectClick(sender,e);}
+            
 		}
 		
 		void BtnConnectClick(object sender, EventArgs e)
@@ -61,13 +47,17 @@ namespace SS.Ynote.Classic
 
 			List<ftpinfo> files= testftp.connect(txtHost.Text,txtUsername.Text,txtPassword.Text);
             listRemoteFiles(files);
-            lblRemotePath.Text = new Uri(txtHost.Text).AbsolutePath; //i.e. /
+            lblRemotePath.Text = new Uri(txtHost.Text).AbsolutePath; 
+            if (savedata.Checked == true) {
+                Properties.Settings.Default.Host = this.txtHost.Text;
+                Properties.Settings.Default.Username = txtUsername.Text;
+                Properties.Settings.Default.Password = txtPassword.Text;
+            }
 		}
 
         private void listRemoteFiles(List<ftpinfo> files)
         {
             lvwRemote.Items.Clear();
-            //lvwRemote.Items.Add("..");
             if (files == null)
                 return;
             foreach (ftpinfo file in files)
@@ -124,6 +114,16 @@ namespace SS.Ynote.Classic
 
         private void btnRemoteUp_Click(object sender, EventArgs e)
         {
+           
+        }
+
+        private void lvwLocal_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
             if (lblRemotePath.Text == "/")
             {
                 //already in root dir.
@@ -136,20 +136,15 @@ namespace SS.Ynote.Classic
             else
             {
                 lblRemotePath.Text = StringUtils.ExtractFolderFromPath(lblRemotePath.Text, "/", false);
-                if (lblRemotePath.Text.Length==0)
-                    lblRemotePath.Text="/";
-                    
+                if (lblRemotePath.Text.Length == 0)
+                    lblRemotePath.Text = "/";
+
                 refreshRemote();
                 //string currpath = lblRemotePath.Text.Substring(0, lblRemotePath.Text.Length - 1);
                 //string newpath = lblRemotePath.Text.Substring(0, currpath.LastIndexOf("/"));
                 //List<ftpinfo> files = testftp.browse(txtHost.Text + newpath);
                 //listRemoteFiles(files);
             }
-        }
-
-        private void lvwLocal_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
 	}
 }

@@ -1,4 +1,9 @@
-﻿using System;
+﻿/* Program.cs
+ * 
+ * Copyright (C) 2013 Samarjeet Singh
+ * 
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;

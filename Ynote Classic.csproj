@@ -81,11 +81,11 @@
     </Compile>
     <Compile Include="Classes\Theme.cs" />
     <Compile Include="Classes\ThemeManager.cs" />
-    <Compile Include="Components\Clipboard.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Classes\ClipboardMonitor.cs">
+      <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Components\Clipboard.Designer.cs">
-      <DependentUpon>Clipboard.cs</DependentUpon>
+    <Compile Include="Components\ClipboardHistory.cs">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Components\Editor.cs">
       <SubType>Form</SubType>
@@ -125,7 +125,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Settings.cs" />
     <Compile Include="Tools\fmSelectGrammars.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,8 +134,8 @@
     <EmbeddedResource Include="Classes\BitControl.resx">
       <DependentUpon>BitControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\Clipboard.resx">
-      <DependentUpon>Clipboard.cs</DependentUpon>
+    <EmbeddedResource Include="Components\ClipboardHistory.resx">
+      <DependentUpon>ClipboardHistory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Components\Editor.resx">
       <DependentUpon>Editor.cs</DependentUpon>

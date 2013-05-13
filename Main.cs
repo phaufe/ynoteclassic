@@ -1,4 +1,9 @@
-﻿using System;
+﻿/* YnoteClassic/Main.cs
+ * 
+ * Copyright (C) 2013 Samarjeet Singh
+ *
+ */
+using System;
 using System.Text;
 using System.IO;
 using System.Drawing;
@@ -44,6 +49,8 @@ namespace SS.Ynote.Classic
         TextStyle grayStyle = new TextStyle(Brushes.Gray, null, FontStyle.Regular);
         TextStyle redStyle = new TextStyle(Brushes.Red, null, FontStyle.Regular);
         TextStyle classstyle = new TextStyle(Brushes.SteelBlue, null, FontStyle.Regular);
+        object[] ClipboardItems = {(Clipboard.GetText())};
+        ClipboardHistory CH = new ClipboardHistory();
 
         //Entry Point
         public Main()
@@ -205,8 +212,13 @@ namespace SS.Ynote.Classic
             try
             {
                 ActiveEditor.codebox.Copy();
-                string content = System.IO.File.ReadAllText(@"Configurations/Clipboard.cl") +"\n"+ Clipboard.GetText();
-                System.IO.File.WriteAllText(@"Configurations/Clipboard.cl",content );
+                this.ClipboardItems[1] = Clipboard.GetText();
+                this.ClipboardItems[2] = Clipboard.GetText();
+                this.ClipboardItems[3] = Clipboard.GetText();
+                this.ClipboardItems[4] = Clipboard.GetText();
+                this.ClipboardItems[5] = Clipboard.GetText();
+                this.ClipboardItems[6] = Clipboard.GetText();
+                this.ClipboardItems[7] = Clipboard.GetText();
             }
             catch (System.Exception ex)
             {
@@ -1047,21 +1059,27 @@ namespace SS.Ynote.Classic
 
         private void dockPanel_ActiveContentChanged(object sender, EventArgs e)
         {
-            if (dockPanel.Contents.Count == 0)
+            try
             {
-                this.editToolStripMenuItem.Enabled = false;
-                this.langaugeToolStripMenuItem.Enabled = false;
-                this.macrosToolStripMenuItem.Enabled = false;
-                this.zoomToolStripMenuItem.Enabled = false;
-                this.toolstrip.Enabled = false;
+                CH.TextBox = ActiveEditor.codebox;
+                if (dockPanel.Contents.Count == 0)
+                {
+                    this.editToolStripMenuItem.Enabled = false;
+                    this.langaugeToolStripMenuItem.Enabled = false;
+                    this.macrosToolStripMenuItem.Enabled = false;
+                    this.zoomToolStripMenuItem.Enabled = false;
+                    this.toolstrip.Enabled = false;
+                }
+                else
+                {
+                    this.editToolStripMenuItem.Enabled = true;
+                    this.langaugeToolStripMenuItem.Enabled = true;
+                    this.macrosToolStripMenuItem.Enabled = true;
+                    this.zoomToolStripMenuItem.Enabled = true;
+                    this.toolstrip.Enabled = true;
+                }
             }
-            else {
-                this.editToolStripMenuItem.Enabled = true;
-                this.langaugeToolStripMenuItem.Enabled = true;
-                this.macrosToolStripMenuItem.Enabled = true;
-                this.zoomToolStripMenuItem.Enabled = true;
-                this.toolstrip.Enabled = true;
-            }
+            catch (System.Exception ex) { }
         }
 
         private void newToolStripButton_Click(object sender, EventArgs e)
@@ -1249,7 +1267,7 @@ namespace SS.Ynote.Classic
         private void fTPManagerToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FTPManager ftp = new FTPManager();
-            ftp.Show(dockPanel, DockState.Document);
+            ftp.Show(dockPanel, DockState.DockRight);
         }
 
         private void luaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -1278,11 +1296,13 @@ namespace SS.Ynote.Classic
 
         private void clipboardHistoryToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Components.Clipboard cb = new Components.Clipboard(ActiveEditor.codebox);
-            cb.Show(dockPanel, DockState.DockRight);
-          
-        }
 
+            CH.TextBox = ActiveEditor.codebox;
+      
+            CH.HistoryItems = this.ClipboardItems;
+            CH.Show(dockPanel, DockState.DockRight);
+            
+        }
 
     }
 }
