@@ -11,10 +11,13 @@ It has Syntax Highlighting, Auto Indent, Macros, Code Folding, Plugins, Parser, 
 
 SS Ynote Classic uses the following open source projects -
 
+
 1.)FastColoredTextbox -For Text Editing
-__
+
+
 2.)Irony - For Parsing
-__
+
+
 3.)DockPanelSuite - For Tabbed Interface
 
 
