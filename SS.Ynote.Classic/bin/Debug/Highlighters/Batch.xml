@@ -1,0 +1,19 @@
+<doc>
+    <style name="Blue" color="Blue"/>
+    <style name="Red" color="Red"/>
+    <style name="RedBold" color="Red" fontStyle="Bold"/>
+    <style name="Green" color="Green"/>
+    <style name="Region" color="Red" backColor="#fcff0f"/>
+    <style name="Orange" color="Orange"/>
+    <!--Highlight Comments first-->
+    <rule style="Green">rem.*$</rule>
+    <rule style="Green">REM.*$</rule>
+    
+        <rule style="Blue">title|set|call|if not defined|copy|exists|cut|cd|for|in|do|goto|GOTO|if|then|else|end|End|If|Then|Else|not|</rule>
+    <rule style="Red" options="Multiline">@|echo|off|</rule>
+    <rule style="Orange" options="Multiline">%%%%|%%%%|%%.*?%%</rule>
+    <rule style="Region">:.*$</rule>
+
+    <rule style="Orange">%.*?[^\\]%</rule>
+        
+</doc>
