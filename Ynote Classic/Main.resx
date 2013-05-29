@@ -1,0 +1,2463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolStripSeparator12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="clipboardHistoryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="miruby.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;printToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;copyToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fromRTFToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="googleSearchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="openContainingFolderToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="saveSessionToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="langaugeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 20</value>
+  </data>
+  <data name="micustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="textToSpeechToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="&gt;&gt;macroexecm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hiddenCharsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Menustrip.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="saveToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;pythonToolStripMenuItem.Name" xml:space="preserve">
+    <value>pythonToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;saveToolStripMenuItem.Name" xml:space="preserve">
+    <value>saveToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;openSessionToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;foldAllToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="editAutoCompleteMenuToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;Menustrip.Name" xml:space="preserve">
+    <value>Menustrip</value>
+  </data>
+  <data name="openToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;minimizeToSystemTrayToolStripMenuItem.Name" xml:space="preserve">
+    <value>minimizeToSystemTrayToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator16.Name" xml:space="preserve">
+    <value>toolStripSeparator16</value>
+  </data>
+  <data name="&gt;&gt;fullScreenToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;autoCompleteMenuToolStripMenuItem.Name" xml:space="preserve">
+    <value>autoCompleteMenuToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;launchInChromeToolStripMenuItem.Name" xml:space="preserve">
+    <value>launchInChromeToolStripMenuItem</value>
+  </data>
+  <data name="charToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;javascriptToolStripMenuItem.Name" xml:space="preserve">
+    <value>javascriptToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;macroexec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="gotobookmark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 22</value>
+  </data>
+  <data name="&gt;&gt;actionscriptToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="summaryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;settingsToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="exitToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="&gt;&gt;mistatusbar.Name" xml:space="preserve">
+    <value>mistatusbar</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel10.Name" xml:space="preserve">
+    <value>toolStripStatusLabel10</value>
+  </data>
+  <data name="&gt;&gt;mirecentfiles.Name" xml:space="preserve">
+    <value>mirecentfiles</value>
+  </data>
+  <data name="&gt;&gt;gotobookmark.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;alwaysOnTopToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="editingModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;editAutoCompleteMenuToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="runToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 20</value>
+  </data>
+  <data name="indentToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;foldSelectedToolStripMenuItem.Name" xml:space="preserve">
+    <value>foldSelectedToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;mijava.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mitoolbar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;navigationToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="batchToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="gotToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator8.Name" xml:space="preserve">
+    <value>toolStripSeparator8</value>
+  </data>
+  <data name="navigateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="unFoldSelectedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;duplicateLineToolStripMenuItem.Name" xml:space="preserve">
+    <value>duplicateLineToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;wordToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;miphp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;actionscriptToolStripMenuItem.Name" xml:space="preserve">
+    <value>actionscriptToolStripMenuItem</value>
+  </data>
+  <data name="redoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="toolStripSeparator13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="toolstrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="&gt;&gt;goWordRightToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator20.Name" xml:space="preserve">
+    <value>toolStripSeparator20</value>
+  </data>
+  <data name="moveSelectedLinesDownToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="exportToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="&gt;&gt;insertToolStripMenuItem1.Name" xml:space="preserve">
+    <value>insertToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;miasp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="replaceToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>869, 417</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator.Name" xml:space="preserve">
+    <value>toolStripSeparator</value>
+  </data>
+  <data name="&gt;&gt;findToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="&gt;&gt;fullScreenToolStripMenuItem.Name" xml:space="preserve">
+    <value>fullScreenToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;saveAsToolStripMenuItem.Name" xml:space="preserve">
+    <value>saveAsToolStripMenuItem</value>
+  </data>
+  <data name="mitext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;setSelectedTextAsWritableToolStripMenuItem.Name" xml:space="preserve">
+    <value>setSelectedTextAsWritableToolStripMenuItem</value>
+  </data>
+  <data name="toolStripSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 6</value>
+  </data>
+  <data name="toolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="actionscriptToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 6</value>
+  </data>
+  <data name="&gt;&gt;importToolStripMenuItem.Name" xml:space="preserve">
+    <value>importToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NotifyIcon.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="launToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="toolStripTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="unFoldAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;xMLToolStripMenuItem.Name" xml:space="preserve">
+    <value>xMLToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="toolStripSeparator28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 6</value>
+  </data>
+  <data name="emptyLinesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="&gt;&gt;micpp.Name" xml:space="preserve">
+    <value>micpp</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="copyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;commentToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator21.Name" xml:space="preserve">
+    <value>toolStripSeparator21</value>
+  </data>
+  <data name="raiseIssueToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;saveCurrentRecordedMacroToolStripMenuItem.Name" xml:space="preserve">
+    <value>saveCurrentRecordedMacroToolStripMenuItem</value>
+  </data>
+  <data name="javascriptToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;visitProjectPageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mijs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="launchInChromeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator17.Name" xml:space="preserve">
+    <value>toolStripSeparator17</value>
+  </data>
+  <data name="&gt;&gt;Stats.Name" xml:space="preserve">
+    <value>Stats</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator29.Name" xml:space="preserve">
+    <value>toolStripSeparator29</value>
+  </data>
+  <data name="&gt;&gt;goWordLeftToolStripMenuItem.Name" xml:space="preserve">
+    <value>goWordLeftToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;editAutoCompleteMenuToolStripMenuItem.Name" xml:space="preserve">
+    <value>editAutoCompleteMenuToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;cutToolStripMenuItem.Name" xml:space="preserve">
+    <value>cutToolStripMenuItem</value>
+  </data>
+  <data name="launchInFirefoxToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;pasteToolStripButton.Name" xml:space="preserve">
+    <value>pasteToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;exportToolStripMenuItem.Name" xml:space="preserve">
+    <value>exportToolStripMenuItem</value>
+  </data>
+  <data name="foldAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;foldingToolStripMenuItem.Name" xml:space="preserve">
+    <value>foldingToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;commentToolStripMenuItem.Name" xml:space="preserve">
+    <value>commentToolStripMenuItem</value>
+  </data>
+  <data name="toolStripSeparator38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="&gt;&gt;zoomToolStripMenuItem.Name" xml:space="preserve">
+    <value>zoomToolStripMenuItem</value>
+  </data>
+  <data name="hiddenCharsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;increaseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clipboardHistoryToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;removeWordRightToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator39.Name" xml:space="preserve">
+    <value>toolStripSeparator39</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NotifyIcon.Name" xml:space="preserve">
+    <value>NotifyIcon</value>
+  </data>
+  <data name="&gt;&gt;addToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mias.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dockPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 49</value>
+  </data>
+  <data name="&gt;&gt;lblencoding.Name" xml:space="preserve">
+    <value>lblencoding</value>
+  </data>
+  <data name="Stats.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="&gt;&gt;removeToolStripMenuItem.Name" xml:space="preserve">
+    <value>removeToolStripMenuItem</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 20</value>
+  </data>
+  <data name="&gt;&gt;runToolStripMenuItem.Name" xml:space="preserve">
+    <value>runToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;pHPToolStripMenuItem.Name" xml:space="preserve">
+    <value>pHPToolStripMenuItem</value>
+  </data>
+  <data name="miqb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cSSToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;startingSnippetsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fromArchiveToolStripMenuItem.Name" xml:space="preserve">
+    <value>fromArchiveToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;emptyColumnsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editToolStripMenuItem.Name" xml:space="preserve">
+    <value>editToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pluginCentralToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;rubyToolStripMenuItem.Name" xml:space="preserve">
+    <value>rubyToolStripMenuItem</value>
+  </data>
+  <data name="toolStripSeparator29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="toolStripSeparator27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="toolStripSeparator24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="&gt;&gt;zoomOutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="removeCurrentLineToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="goWordLeftToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;fromDirectoryToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripButton.Name" xml:space="preserve">
+    <value>helpToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;pluginTreeToolStripMenuItem.Name" xml:space="preserve">
+    <value>pluginTreeToolStripMenuItem</value>
+  </data>
+  <data name="cToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="mias.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator10.Name" xml:space="preserve">
+    <value>toolStripSeparator10</value>
+  </data>
+  <data name="&gt;&gt;bingSearchToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bookmarksToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;batchToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator9.Name" xml:space="preserve">
+    <value>toolStripSeparator9</value>
+  </data>
+  <data name="&gt;&gt;lineToolStripMenuItem.Name" xml:space="preserve">
+    <value>lineToolStripMenuItem</value>
+  </data>
+  <data name="toolStripSeparator19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="&gt;&gt;cloneDocumentToolStripMenuItem.Name" xml:space="preserve">
+    <value>cloneDocumentToolStripMenuItem</value>
+  </data>
+  <data name="alwaysOnTopToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;charToolStripMenuItem.Name" xml:space="preserve">
+    <value>charToolStripMenuItem</value>
+  </data>
+  <data name="macrostop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;unFoldAllToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="goWordRightWithSelectionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;wordWrapToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mivb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;javascriptToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
+    <value>toolStripSeparator5</value>
+  </data>
+  <data name="toolStripSeparator37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="&gt;&gt;mitext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="milua.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="autoCompleteMenuToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;mibatch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;micpp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openContainingFolderToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchToolStripMenuItem1.Name" xml:space="preserve">
+    <value>searchToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;moveSelectedLinesDownToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;micase.Name" xml:space="preserve">
+    <value>micase</value>
+  </data>
+  <data name="&gt;&gt;viewToolStripMenuItem.Name" xml:space="preserve">
+    <value>viewToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;launchInBrowserToolStripMenuItem.Name" xml:space="preserve">
+    <value>launchInBrowserToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;cutToolStripButton.Name" xml:space="preserve">
+    <value>cutToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;foldSelectedToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="settingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 20</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator28.Name" xml:space="preserve">
+    <value>toolStripSeparator28</value>
+  </data>
+  <data name="saveAsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="wordToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="removeEmptyLinesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;navigateToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hTMLToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripMenuItem8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator31.Name" xml:space="preserve">
+    <value>toolStripSeparator31</value>
+  </data>
+  <data name="startingSnippetsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator19.Name" xml:space="preserve">
+    <value>toolStripSeparator19</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hTMLToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;newToolStripMenuItem.Name" xml:space="preserve">
+    <value>newToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;decreaseToolStripMenuItem.Name" xml:space="preserve">
+    <value>decreaseToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;pageSetupToolStripMenuItem.Name" xml:space="preserve">
+    <value>pageSetupToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;mixml.Name" xml:space="preserve">
+    <value>mixml</value>
+  </data>
+  <data name="&gt;&gt;macroexecm.Name" xml:space="preserve">
+    <value>macroexecm</value>
+  </data>
+  <data name="&gt;&gt;removeEmptyLinesToolStripMenuItem.Name" xml:space="preserve">
+    <value>removeEmptyLinesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator32.Name" xml:space="preserve">
+    <value>toolStripSeparator32</value>
+  </data>
+  <data name="hTMLToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="decreaseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;xHTMLToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveToolStripButton.Name" xml:space="preserve">
+    <value>saveToolStripButton</value>
+  </data>
+  <data name="incrementalSearcherToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnEditorToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblencoding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 17</value>
+  </data>
+  <data name="toolStripButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 6</value>
+  </data>
+  <data name="&gt;&gt;searchToolStripMenuItem.Name" xml:space="preserve">
+    <value>searchToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;luaToolStripMenuItem.Name" xml:space="preserve">
+    <value>luaToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;saveSessionToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel4.Name" xml:space="preserve">
+    <value>toolStripStatusLabel4</value>
+  </data>
+  <data name="&gt;&gt;summaryToolStripMenuItem.Name" xml:space="preserve">
+    <value>summaryToolStripMenuItem</value>
+  </data>
+  <data name="toolStripSeparator10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="settingsToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="Menustrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;macrostart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveAllToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="importMacroFromFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="propertiesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dockPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;wordWrapToolStripMenuItem.Name" xml:space="preserve">
+    <value>wordWrapToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator23.Name" xml:space="preserve">
+    <value>toolStripSeparator23</value>
+  </data>
+  <data name="&gt;&gt;goWordLeftWithSelectionToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel2.Name" xml:space="preserve">
+    <value>toolStripStatusLabel2</value>
+  </data>
+  <data name="&gt;&gt;mihtml.Name" xml:space="preserve">
+    <value>mihtml</value>
+  </data>
+  <data name="emptyColumnsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;charToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem1.Name" xml:space="preserve">
+    <value>exitToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;incrementalSearcherToolStripMenuItem.Name" xml:space="preserve">
+    <value>incrementalSearcherToolStripMenuItem</value>
+  </data>
+  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="&gt;&gt;importToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;luaToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem7.Name" xml:space="preserve">
+    <value>toolStripMenuItem7</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Name" xml:space="preserve">
+    <value>toolStripStatusLabel1</value>
+  </data>
+  <data name="&gt;&gt;mics.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;milua.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;newToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;viewToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;xMLToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="duplicateLineToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton2.Name" xml:space="preserve">
+    <value>toolStripButton2</value>
+  </data>
+  <data name="&gt;&gt;wordToolStripMenuItem.Name" xml:space="preserve">
+    <value>wordToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="&gt;&gt;goToToolStripMenuItem.Name" xml:space="preserve">
+    <value>goToToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;pasteToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;zToolStripMenuItem.Name" xml:space="preserve">
+    <value>zToolStripMenuItem</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="mijava.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
+    <value>fileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;runToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Name" xml:space="preserve">
+    <value>helpToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;goWordRightWithSelectionToolStripMenuItem.Name" xml:space="preserve">
+    <value>goWordRightWithSelectionToolStripMenuItem</value>
+  </data>
+  <data name="checkForUpdatesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="foldingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;miqb.Name" xml:space="preserve">
+    <value>miqb</value>
+  </data>
+  <data name="&gt;&gt;dockPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="selectAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="Menustrip.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="zoomOutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;navigateForwardToolStripMenuItem.Name" xml:space="preserve">
+    <value>navigateForwardToolStripMenuItem</value>
+  </data>
+  <data name="toolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="removeToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;textToolStripMenuItem.Name" xml:space="preserve">
+    <value>textToolStripMenuItem</value>
+  </data>
+  <data name="runToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;clipboardHistoryToolStripMenuItem.Name" xml:space="preserve">
+    <value>clipboardHistoryToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator11.Name" xml:space="preserve">
+    <value>toolStripSeparator11</value>
+  </data>
+  <data name="newToolStripMenuItem.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="&gt;&gt;pluginCentralToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="&gt;&gt;importToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator36.Name" xml:space="preserve">
+    <value>toolStripSeparator36</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator37.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkForUpdatesToolStripMenuItem.Name" xml:space="preserve">
+    <value>checkForUpdatesToolStripMenuItem</value>
+  </data>
+  <data name="mihtml.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="viewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 20</value>
+  </data>
+  <data name="fromURLToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;saveSessionToolStripMenuItem1.Name" xml:space="preserve">
+    <value>saveSessionToolStripMenuItem1</value>
+  </data>
+  <data name="findToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;qBasicToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gotToolStripMenuItem.Name" xml:space="preserve">
+    <value>gotToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="newToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="&gt;&gt;Menustrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btZoom.Name" xml:space="preserve">
+    <value>btZoom</value>
+  </data>
+  <data name="cToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;raiseIssueToolStripMenuItem.Name" xml:space="preserve">
+    <value>raiseIssueToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;printToolStripMenuItem.Name" xml:space="preserve">
+    <value>printToolStripMenuItem</value>
+  </data>
+  <data name="mibatch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="luaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;openSessionToolStripMenuItem.Name" xml:space="preserve">
+    <value>openSessionToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;startingSnippetsToolStripMenuItem.Name" xml:space="preserve">
+    <value>startingSnippetsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;copyToolStripButton.Name" xml:space="preserve">
+    <value>copyToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;saveToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 6</value>
+  </data>
+  <data name="macrostart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;dockPanel.Type" xml:space="preserve">
+    <value>WeifenLuo.WinFormsUI.Docking.DockPanel, WeifenLuo.WinFormsUI.Docking, Version=2.7.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;openToolStripButton.Name" xml:space="preserve">
+    <value>openToolStripButton</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator22.Name" xml:space="preserve">
+    <value>toolStripSeparator22</value>
+  </data>
+  <data name="&gt;&gt;redoToolStripMenuItem.Name" xml:space="preserve">
+    <value>redoToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;propertiesToolStripMenuItem.Name" xml:space="preserve">
+    <value>propertiesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;runToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="qBasicToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;visitProjectPageToolStripMenuItem.Name" xml:space="preserve">
+    <value>visitProjectPageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator27.Name" xml:space="preserve">
+    <value>toolStripSeparator27</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="micpp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="batchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;gotToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mivb.Name" xml:space="preserve">
+    <value>mivb</value>
+  </data>
+  <data name="&gt;&gt;settingsToolStripMenuItem.Name" xml:space="preserve">
+    <value>settingsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Name" xml:space="preserve">
+    <value>statusStrip</value>
+  </data>
+  <data name="&gt;&gt;foldAllToolStripMenuItem.Name" xml:space="preserve">
+    <value>foldAllToolStripMenuItem</value>
+  </data>
+  <data name="dockPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>869, 346</value>
+  </data>
+  <data name="&gt;&gt;setSelectedTextAsWritableToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="micss.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;duplicateLineToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;newToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fromURLToolStripMenuItem.Name" xml:space="preserve">
+    <value>fromURLToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem9.Name" xml:space="preserve">
+    <value>toolStripMenuItem9</value>
+  </data>
+  <data name="misql.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="&gt;&gt;moveSelectedLinesDownToolStripMenuItem.Name" xml:space="preserve">
+    <value>moveSelectedLinesDownToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;runToolStripMenuItem1.Name" xml:space="preserve">
+    <value>runToolStripMenuItem1</value>
+  </data>
+  <data name="fromRTFToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;insertToolStripMenuItem.Name" xml:space="preserve">
+    <value>insertToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;copyToolStripMenuItem.Name" xml:space="preserve">
+    <value>copyToolStripMenuItem</value>
+  </data>
+  <data name="micase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="goToEndToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem8.Name" xml:space="preserve">
+    <value>toolStripMenuItem8</value>
+  </data>
+  <data name="toolStripSeparator34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton1.Name" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="setSelectedTextAsWritableToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;goWordLeftToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;wikipediaSearchToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;removeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="setSelectedTextAsReadonlyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="toolStripMenuItem11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;googleSearchToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;launchInCommandPromptToolStripMenuItem.Name" xml:space="preserve">
+    <value>launchInCommandPromptToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;mijs.Name" xml:space="preserve">
+    <value>mijs</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripMenuItem7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;removeWordLeftToolStripMenuItem.Name" xml:space="preserve">
+    <value>removeWordLeftToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;editHighlightingToolStripMenuItem.Name" xml:space="preserve">
+    <value>editHighlightingToolStripMenuItem</value>
+  </data>
+  <data name="restoreDefaultZoomToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem6.Name" xml:space="preserve">
+    <value>toolStripMenuItem6</value>
+  </data>
+  <data name="&gt;&gt;qBasicToolStripMenuItem.Name" xml:space="preserve">
+    <value>qBasicToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;openCurrentDirCommandPromptToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;decreaseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;redoToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblencoding.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 6</value>
+  </data>
+  <data name="&gt;&gt;saveAsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fullScreenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;daToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;macrostop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exportToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;foldingToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pluginCentralToolStripMenuItem.Name" xml:space="preserve">
+    <value>pluginCentralToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;miruby.Name" xml:space="preserve">
+    <value>miruby</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator25.Name" xml:space="preserve">
+    <value>toolStripSeparator25</value>
+  </data>
+  <data name="&gt;&gt;btZoom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSplitButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;findToolStripMenuItem.Name" xml:space="preserve">
+    <value>findToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;fromURLToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>869, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem10.Name" xml:space="preserve">
+    <value>toolStripMenuItem10</value>
+  </data>
+  <data name="&gt;&gt;mibatch.Name" xml:space="preserve">
+    <value>mibatch</value>
+  </data>
+  <data name="&gt;&gt;launchInBrowserToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Stats.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolstrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="daToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="printToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;zoomOutToolStripMenuItem.Name" xml:space="preserve">
+    <value>zoomOutToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;macrostart.Name" xml:space="preserve">
+    <value>macrostart</value>
+  </data>
+  <data name="zoomToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="toolStripStatusLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="columnEditorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="insertToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;miruby.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pHPToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="mipython.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;indentToolStripMenuItem.Name" xml:space="preserve">
+    <value>indentToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator13.Name" xml:space="preserve">
+    <value>toolStripSeparator13</value>
+  </data>
+  <data name="toLowerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 6</value>
+  </data>
+  <data name="&gt;&gt;increaseToolStripMenuItem.Name" xml:space="preserve">
+    <value>increaseToolStripMenuItem</value>
+  </data>
+  <data name="btZoom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 20</value>
+  </data>
+  <data name="bingSearchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;cSSToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rTFToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem11.Name" xml:space="preserve">
+    <value>toolStripMenuItem11</value>
+  </data>
+  <data name="miphp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="cutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;rTFToolStripMenuItem.Name" xml:space="preserve">
+    <value>rTFToolStripMenuItem</value>
+  </data>
+  <data name="pageSetupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="&gt;&gt;raiseIssueToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editingModeToolStripMenuItem.Name" xml:space="preserve">
+    <value>editingModeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator33.Name" xml:space="preserve">
+    <value>toolStripSeparator33</value>
+  </data>
+  <data name="lineToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="miasp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;micss.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;micss.Name" xml:space="preserve">
+    <value>micss</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dockPanel.Name" xml:space="preserve">
+    <value>dockPanel</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator12.Name" xml:space="preserve">
+    <value>toolStripSeparator12</value>
+  </data>
+  <data name="pasteToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator38.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripMenuItem10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;goToToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;saveAllToolStripMenuItem.Name" xml:space="preserve">
+    <value>saveAllToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;alwaysOnTopToolStripMenuItem.Name" xml:space="preserve">
+    <value>alwaysOnTopToolStripMenuItem</value>
+  </data>
+  <data name="commentToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="wordWrapToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;gotobookmark.Name" xml:space="preserve">
+    <value>gotobookmark</value>
+  </data>
+  <data name="&gt;&gt;micustom.Name" xml:space="preserve">
+    <value>micustom</value>
+  </data>
+  <data name="xHTMLToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="openCurrentDirCommandPromptToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;wikipediaSearchToolStripMenuItem.Name" xml:space="preserve">
+    <value>wikipediaSearchToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;setSelectedTextAsReadonlyToolStripMenuItem.Name" xml:space="preserve">
+    <value>setSelectedTextAsReadonlyToolStripMenuItem</value>
+  </data>
+  <data name="zToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="&gt;&gt;openToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
+    <value>aboutToolStripMenuItem</value>
+  </data>
+  <data name="dockPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;macrostop.Name" xml:space="preserve">
+    <value>macrostop</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;miasp.Name" xml:space="preserve">
+    <value>miasp</value>
+  </data>
+  <data name="&gt;&gt;miqb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;replaceToolStripMenuItem.Name" xml:space="preserve">
+    <value>replaceToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;dockPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="toolStripStatusLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="copyToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;preferencesToolStripMenuItem.Name" xml:space="preserve">
+    <value>preferencesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;navigateBackwardsToolStripMenuItem.Name" xml:space="preserve">
+    <value>navigateBackwardsToolStripMenuItem</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="goToToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="moveSelectedLinesUpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="printToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="&gt;&gt;toLowerToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;launchInCommandPromptToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="&gt;&gt;removeCurrentLineToolStripMenuItem.Name" xml:space="preserve">
+    <value>removeCurrentLineToolStripMenuItem</value>
+  </data>
+  <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 395</value>
+  </data>
+  <data name="&gt;&gt;unFoldSelectedToolStripMenuItem.Name" xml:space="preserve">
+    <value>unFoldSelectedToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;minimizeToSystemTrayToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="&gt;&gt;chooseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pHPToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editingModeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pythonToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="goWordRightToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator24.Name" xml:space="preserve">
+    <value>toolStripSeparator24</value>
+  </data>
+  <data name="toolStripStatusLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="searchToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="macrosToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 20</value>
+  </data>
+  <data name="toolStripSeparator39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="searchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;preferencesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;macrosToolStripMenuItem.Name" xml:space="preserve">
+    <value>macrosToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel5.Name" xml:space="preserve">
+    <value>toolStripStatusLabel5</value>
+  </data>
+  <data name="NotifyIcon.Text" xml:space="preserve">
+    <value>notifyIcon1</value>
+  </data>
+  <data name="mistatusbar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="chooseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;cCToolStripMenuItem.Name" xml:space="preserve">
+    <value>cCToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator15.Name" xml:space="preserve">
+    <value>toolStripSeparator15</value>
+  </data>
+  <data name="&gt;&gt;propertiesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cCToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="wikipediaSearchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="javaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="macroexecm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;bookmarksToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="addToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;mistatusbar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="goWordLeftWithSelectionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;importMacroFromFileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mijs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;launchInFirefoxToolStripMenuItem.Name" xml:space="preserve">
+    <value>launchInFirefoxToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator34.Name" xml:space="preserve">
+    <value>toolStripSeparator34</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel6.Name" xml:space="preserve">
+    <value>toolStripStatusLabel6</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;incrementalSearcherToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;navigateToolStripMenuItem.Name" xml:space="preserve">
+    <value>navigateToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;batchToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;undoToolStripMenuItem.Name" xml:space="preserve">
+    <value>undoToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mivb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator39.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toUpperToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;macroexec.Name" xml:space="preserve">
+    <value>macroexec</value>
+  </data>
+  <data name="&gt;&gt;mics.Name" xml:space="preserve">
+    <value>mics</value>
+  </data>
+  <data name="mics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;printToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator18.Name" xml:space="preserve">
+    <value>toolStripSeparator18</value>
+  </data>
+  <data name="foldSelectedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;settingsToolStripMenuItem1.Name" xml:space="preserve">
+    <value>settingsToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;removeWordLeftToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;langaugeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chooseToolStripMenuItem.Name" xml:space="preserve">
+    <value>chooseToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;restartToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="fromDirectoryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;navigateBackwardsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;settingsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolstrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mitoolbar.Name" xml:space="preserve">
+    <value>mitoolbar</value>
+  </data>
+  <data name="&gt;&gt;moveSelectedLinesUpToolStripMenuItem.Name" xml:space="preserve">
+    <value>moveSelectedLinesUpToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hTMLToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="toolStripMenuItem9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;insertToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="zoomInToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;zoomToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;goWordRightToolStripMenuItem.Name" xml:space="preserve">
+    <value>goWordRightToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;cSSToolStripMenuItem.Name" xml:space="preserve">
+    <value>cSSToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;pasteToolStripMenuItem.Name" xml:space="preserve">
+    <value>pasteToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hTMLToolStripMenuItem.Name" xml:space="preserve">
+    <value>hTMLToolStripMenuItem</value>
+  </data>
+  <data name="removeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;cCToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="toolStripStatusLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="macrodataclear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;autoCompleteMenuToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="increaseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="clearAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="launchInBrowserToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;NotifyIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="launchInCommandPromptToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="preferencesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator6.Name" xml:space="preserve">
+    <value>toolStripSeparator6</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cToolStripMenuItem.Name" xml:space="preserve">
+    <value>cToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;editToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;moveSelectedLinesUpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;launToolStripMenuItem.Name" xml:space="preserve">
+    <value>launToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="hotKeysToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="editToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 20</value>
+  </data>
+  <data name="mirecentfiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="&gt;&gt;goToEndToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripStatusLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="rubyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;fromDirectoryToolStripMenuItem.Name" xml:space="preserve">
+    <value>fromDirectoryToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;newToolStripButton.Name" xml:space="preserve">
+    <value>newToolStripButton</value>
+  </data>
+  <data name="importToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="propertiesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="&gt;&gt;removeToolStripMenuItem1.Name" xml:space="preserve">
+    <value>removeToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;launToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;unFoldAllToolStripMenuItem.Name" xml:space="preserve">
+    <value>unFoldAllToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;mias.Name" xml:space="preserve">
+    <value>mias</value>
+  </data>
+  <data name="&gt;&gt;unFoldSelectedToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mixml.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator7.Name" xml:space="preserve">
+    <value>toolStripSeparator7</value>
+  </data>
+  <data name="removeWordLeftToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="openSessionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="fromArchiveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bookmarksToolStripMenuItem.Name" xml:space="preserve">
+    <value>bookmarksToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;batchToolStripMenuItem.Name" xml:space="preserve">
+    <value>batchToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;milua.Name" xml:space="preserve">
+    <value>milua</value>
+  </data>
+  <data name="restartToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="Menustrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>869, 24</value>
+  </data>
+  <data name="&gt;&gt;indentToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolstrip.Name" xml:space="preserve">
+    <value>toolstrip</value>
+  </data>
+  <data name="&gt;&gt;pasteToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator14.Name" xml:space="preserve">
+    <value>toolStripSeparator14</value>
+  </data>
+  <data name="&gt;&gt;launchInFirefoxToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;navigationToolStripMenuItem.Name" xml:space="preserve">
+    <value>navigationToolStripMenuItem</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="toolStripSeparator30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="&gt;&gt;hiddenCharsToolStripMenuItem.Name" xml:space="preserve">
+    <value>hiddenCharsToolStripMenuItem</value>
+  </data>
+  <data name="navigationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;fromRTFToolStripMenuItem.Name" xml:space="preserve">
+    <value>fromRTFToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;removeCurrentLineToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="navigateBackwardsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;saveCurrentRecordedMacroToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rTFToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;fromArchiveToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;insertToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textToSpeechToolStripMenuItem.Name" xml:space="preserve">
+    <value>textToSpeechToolStripMenuItem</value>
+  </data>
+  <data name="visitProjectPageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;hTMLToolStripMenuItem1.Name" xml:space="preserve">
+    <value>hTMLToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;xHTMLToolStripMenuItem.Name" xml:space="preserve">
+    <value>xHTMLToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;zoomInToolStripMenuItem.Name" xml:space="preserve">
+    <value>zoomInToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;cutToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;daToolStripMenuItem.Name" xml:space="preserve">
+    <value>daToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;selectAllToolStripMenuItem.Name" xml:space="preserve">
+    <value>selectAllToolStripMenuItem</value>
+  </data>
+  <data name="toolStripSeparator14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel7.Name" xml:space="preserve">
+    <value>toolStripStatusLabel7</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel3.Name" xml:space="preserve">
+    <value>toolStripStatusLabel3</value>
+  </data>
+  <data name="toolstrip.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;javaToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;goWordRightWithSelectionToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;misql.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="editHighlightingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="cloneDocumentToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripTextBox1.Name" xml:space="preserve">
+    <value>toolStripTextBox1</value>
+  </data>
+  <data name="&gt;&gt;goWordLeftWithSelectionToolStripMenuItem.Name" xml:space="preserve">
+    <value>goWordLeftWithSelectionToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;emptyLinesToolStripMenuItem.Name" xml:space="preserve">
+    <value>emptyLinesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;hotKeysToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripStatusLabel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>805, 17</value>
+  </data>
+  <data name="&gt;&gt;selectAllToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mitext.Name" xml:space="preserve">
+    <value>mitext</value>
+  </data>
+  <data name="toolStripSeparator21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="&gt;&gt;openCurrentDirCommandPromptToolStripMenuItem.Name" xml:space="preserve">
+    <value>openCurrentDirCommandPromptToolStripMenuItem</value>
+  </data>
+  <data name="saveAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="&gt;&gt;mihtml.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;zoomInToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator26.Name" xml:space="preserve">
+    <value>toolStripSeparator26</value>
+  </data>
+  <data name="removeWordRightToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolstrip.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;micase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;undoToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openToolStripMenuItem.Name" xml:space="preserve">
+    <value>openToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;launchInChromeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;removeWordRightToolStripMenuItem.Name" xml:space="preserve">
+    <value>removeWordRightToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;restartToolStripMenuItem.Name" xml:space="preserve">
+    <value>restartToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toLowerToolStripMenuItem.Name" xml:space="preserve">
+    <value>toLowerToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkForUpdatesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cutToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="macroexec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="textToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="toolstrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>869, 25</value>
+  </data>
+  <data name="&gt;&gt;javaToolStripMenuItem.Name" xml:space="preserve">
+    <value>javaToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator38.Name" xml:space="preserve">
+    <value>toolStripSeparator38</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Menustrip.Type" xml:space="preserve">
+    <value>SS.Ynote.Engine.Framework.Plugins.Controls.PluginMenuStrip, SS.Ynote.Engine, Version=2.3.1.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;removeToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clearAllToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mitoolbar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;importToolStripMenuItem1.Name" xml:space="preserve">
+    <value>importToolStripMenuItem1</value>
+  </data>
+  <data name="importToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="saveCurrentRecordedMacroToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;setSelectedTextAsReadonlyToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="undoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="toolStripSeparator31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator30.Name" xml:space="preserve">
+    <value>toolStripSeparator30</value>
+  </data>
+  <data name="&gt;&gt;textToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cloneDocumentToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;emptyColumnsToolStripMenuItem.Name" xml:space="preserve">
+    <value>emptyColumnsToolStripMenuItem</value>
+  </data>
+  <data name="toolStripStatusLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="&gt;&gt;openToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="minimizeToSystemTrayToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 22</value>
+  </data>
+  <data name="&gt;&gt;addToolStripMenuItem.Name" xml:space="preserve">
+    <value>addToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;replaceToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnEditorToolStripMenuItem.Name" xml:space="preserve">
+    <value>columnEditorToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;zToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mixml.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;mirecentfiles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;restoreDefaultZoomToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mipython.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="xMLToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;macrodataclear.Name" xml:space="preserve">
+    <value>macrodataclear</value>
+  </data>
+  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="&gt;&gt;mijava.Name" xml:space="preserve">
+    <value>mijava</value>
+  </data>
+  <data name="&gt;&gt;goToEndToolStripMenuItem.Name" xml:space="preserve">
+    <value>goToEndToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;miphp.Name" xml:space="preserve">
+    <value>miphp</value>
+  </data>
+  <data name="&gt;&gt;hotKeysToolStripMenuItem.Name" xml:space="preserve">
+    <value>hotKeysToolStripMenuItem</value>
+  </data>
+  <data name="pluginTreeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;misql.Name" xml:space="preserve">
+    <value>misql</value>
+  </data>
+  <data name="&gt;&gt;bingSearchToolStripMenuItem.Name" xml:space="preserve">
+    <value>bingSearchToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;mipython.Name" xml:space="preserve">
+    <value>mipython</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 6</value>
+  </data>
+  <data name="&gt;&gt;editHighlightingToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="insertToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Name" xml:space="preserve">
+    <value>toolStripSeparator4</value>
+  </data>
+  <data name="&gt;&gt;textToSpeechToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;googleSearchToolStripMenuItem.Name" xml:space="preserve">
+    <value>googleSearchToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;pythonToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;macrodataclear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;navigateForwardToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toUpperToolStripMenuItem.Name" xml:space="preserve">
+    <value>toUpperToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;copyToolStripButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;summaryToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lineToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="navigateForwardToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <data name="helpToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;emptyLinesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;printToolStripButton.Name" xml:space="preserve">
+    <value>printToolStripButton</value>
+  </data>
+  <data name="newToolStripButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;rubyToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;removeEmptyLinesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cToolStripMenuItem1.Name" xml:space="preserve">
+    <value>cToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;cToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;micustom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;macrosToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator37.Name" xml:space="preserve">
+    <value>toolStripSeparator37</value>
+  </data>
+  <data name="&gt;&gt;pageSetupToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 20</value>
+  </data>
+  <data name="&gt;&gt;restoreDefaultZoomToolStripMenuItem.Name" xml:space="preserve">
+    <value>restoreDefaultZoomToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator35.Name" xml:space="preserve">
+    <value>toolStripSeparator35</value>
+  </data>
+  <data name="&gt;&gt;importMacroFromFileToolStripMenuItem.Name" xml:space="preserve">
+    <value>importMacroFromFileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;batchToolStripMenuItem1.Name" xml:space="preserve">
+    <value>batchToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;langaugeToolStripMenuItem.Name" xml:space="preserve">
+    <value>langaugeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;clearAllToolStripMenuItem.Name" xml:space="preserve">
+    <value>clearAllToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;pluginTreeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="&gt;&gt;openContainingFolderToolStripMenuItem.Name" xml:space="preserve">
+    <value>openContainingFolderToolStripMenuItem</value>
+  </data>
+  <data name="toUpperToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 22</value>
+  </data>
+  <metadata name="NotifyIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>109, 58</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="toolstrip.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 632</value>
+  </metadata>
+  <metadata name="Menustrip.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Menustrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="statusStrip.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="toolstrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 24</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>English (United States)</value>
+  </metadata>
+</root>

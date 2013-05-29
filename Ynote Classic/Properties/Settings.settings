@@ -1,0 +1,90 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SS.Ynote.Classic.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PluginConfigFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Configurations/Plugins.xml</Value>
+    </Setting>
+    <Setting Name="File" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ShowTabIcon" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TabRightToLeft" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TabLocation" Type="WeifenLuo.WinFormsUI.Docking.DocumentTabStripLocation" Scope="User">
+      <Value Profile="(Default)">Top</Value>
+    </Setting>
+    <Setting Name="BracketHighlightColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Blue</Value>
+    </Setting>
+    <Setting Name="LineNumbers" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="PaddingWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">18</Value>
+    </Setting>
+    <Setting Name="Encoding" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ANSI</Value>
+    </Setting>
+    <Setting Name="ToolBarVisible" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="StatusBarVisible" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="LineInterval" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ShowCaret" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ShowTextArea" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="HyperLinkColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Blue</Value>
+    </Setting>
+    <Setting Name="EditorBackColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="PaddingColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Transparent</Value>
+    </Setting>
+    <Setting Name="IndentBackColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">WhiteSmoke</Value>
+    </Setting>
+    <Setting Name="FoldingLinesColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Green</Value>
+    </Setting>
+    <Setting Name="LineNumberColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Teal</Value>
+    </Setting>
+    <Setting Name="SelectionColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">60, 0, 0, 255</Value>
+    </Setting>
+    <Setting Name="BookMarksColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">PowderBlue</Value>
+    </Setting>
+    <Setting Name="BracketHighlightColor2" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">PaleGreen</Value>
+    </Setting>
+    <Setting Name="ShowFoldingLines" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="OpenPreviousFile" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SpellCheck" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Theme" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Default</Value>
+    </Setting>
+    <Setting Name="Culture" Type="System.String" Scope="User">
+      <Value Profile="(Default)">en-US</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

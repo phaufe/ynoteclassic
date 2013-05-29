@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7956113E-A6E9-417E-A9CD-1FDDF6B32B02}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XMLParserPlugin</RootNamespace>
+    <AssemblyName>XMLParserPlugin</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG,TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="FastColoredTextBox, Version=2.10.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\FastColoredTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="SS.Web.Tools, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SS.Web.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="SS.Ynote.Classic, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SS.Ynote.Classic.exe</HintPath>
+    </Reference>
+    <Reference Include="SS.Ynote.Engine, Version=2.3.1.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SS.Ynote.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=2.7.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="3rd Party Control\InnerTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="3rd Party Control\InnerXmlTreeView.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="3rd Party Control\IXmlControl.vb" />
+    <Compile Include="3rd Party Control\SearchDlg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3rd Party Control\XmlTreeNode.vb" />
+    <Compile Include="3rd Party Control\XmlTreeView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="3rd Party Control\InnerTextBox.resx">
+      <DependentUpon>InnerTextBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3rd Party Control\InnerXmlTreeView.resx">
+      <DependentUpon>InnerXmlTreeView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3rd Party Control\SearchDlg.resx">
+      <DependentUpon>SearchDlg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3rd Party Control\XmlTreeView.resx">
+      <DependentUpon>XmlTreeView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
