@@ -34,15 +34,15 @@
   <ItemGroup>
     <Reference Include="FastColoredTextBox, Version=2.10.3.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Downloads\FastColoredTextBox-master (1)\FastColoredTextBox-master\Binary\FastColoredTextBox.dll</HintPath>
+      <HintPath>Libraries\FastColoredTextBox.dll</HintPath>
     </Reference>
     <Reference Include="SS.Web.Tools, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Desktop\SS\Source files\Libraries\SS.WebMaster.Tools\SS.WebMaster.Tools\bin\Debug\SS.Web.Tools.dll</HintPath>
+      <HintPath>Libraries\SS.Web.Tools.dll</HintPath>
     </Reference>
     <Reference Include="SS.Ynote.Engine, Version=2.3.1.2, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\SS\Source files\Libraries\SS.Ynote.Engine\SS.Ynote.Engine\bin\Debug\SS.Ynote.Engine.dll</HintPath>
+      <HintPath>..\..\SS\Source files\Libraries\SS.Ynote.Engine\SS.Ynote.Engine\bin\Debug\SS.Ynote.Engine.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -59,7 +59,9 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=2.7.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481, processorArchitecture=MSIL" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=2.7.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481, processorArchitecture=MSIL">
+      <HintPath>Libraries\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\ApplicationContext.cs" />
@@ -83,8 +85,10 @@
     <Compile Include="Classes\Theme.cs" />
     <Compile Include="Classes\ThemeManager.cs" />
     <Compile Include="Components\ClipboardHistory.cs">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Components\Editor.cs">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Components\Editor.designer.cs">
       <DependentUpon>Editor.cs</DependentUpon>
@@ -184,6 +188,7 @@
       <DependentUpon>InsertLine.cs</DependentUpon>
     </Compile>
     <Compile Include="Utils\PluginTree.cs">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Utils\PluginTree.designer.cs">
       <DependentUpon>PluginTree.cs</DependentUpon>

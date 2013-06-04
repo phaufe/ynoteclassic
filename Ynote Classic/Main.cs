@@ -1,4 +1,4 @@
-﻿//Ynote Classic Main.cs 
+//Ynote Classic Main.cs 
 //Copyright (C) 2013 Samarjeet Singh
 
 namespace SS.Ynote.Classic
@@ -51,6 +51,7 @@ namespace SS.Ynote.Classic
         UTF8Encoding UTF8WithoutBOM = new UTF8Encoding(false);
         UnicodeEncoding UnicodeWithoutBOM = new UnicodeEncoding(false, false);
         UnicodeEncoding UnicodeBigEndianWithoutBOM = new UnicodeEncoding(true, false);
+        List<string> mru = new List<string>();
         void InitailzeDock()
         {
             WeifenLuo.WinFormsUI.Docking.DockPanelSkin dockPanelSkin1 = new WeifenLuo.WinFormsUI.Docking.DockPanelSkin();
@@ -232,15 +233,6 @@ namespace SS.Ynote.Classic
         {
             get { return dockPanel.ActiveDocument as Editor; }
         }
-        public static string UserText
-        {
-            get { try { return ActiveEditor.codebox.Text; } catch (System.Exception ex) { return ex.Message; } }
-            set { try { ActiveEditor.codebox.Text = value; } catch (System.Exception ex) { Console.WriteLine(ex.Message); } }
-        }
-        public static FastColoredTextBox ActiveFastColoredTextBox
-        {
-            get { return ActiveEditor.codebox; }
-        }
         #endregion
 
         #region Helper Classes
@@ -373,9 +365,14 @@ namespace SS.Ynote.Classic
             catch (System.Exception ex) { MessageBox.Show(ex.Message); }
         }
         void AddRecentFile(string file){
-            ToolStripMenuItem m = new ToolStripMenuItem();
-            m.Text = file;
-            this.mirecentfiles.DropDownItems.Add(m);
+            try
+            {
+                ToolStripMenuItem m = new ToolStripMenuItem();
+                m.Text = file;
+                this.mirecentfiles.DropDownItems.Add(m);
+                mru.Add(file);
+            }
+            catch  { }
             }
         public void SaveAs(){
             try{
@@ -451,6 +448,7 @@ namespace SS.Ynote.Classic
             }
         #endregion
 
+        #region Events
 
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -801,7 +799,7 @@ namespace SS.Ynote.Classic
         private void mibatch_Click(object sender, EventArgs e)
         {
             ActiveEditor.codebox.Language = Language.Custom;
-            ActiveEditor.codebox.DescriptionFile = "Highlighters/Batch.xml";
+            ActiveEditor.codebox.DescriptionFile = Application.StartupPath + "\\Highlighters\\Batch.xml";
             this.milua.Checked = false;
             this.mitext.Checked = false;
             this.mias.Checked = false;
@@ -1094,7 +1092,7 @@ namespace SS.Ynote.Classic
         private void micpp_Click(object sender, EventArgs e)
         {
             ActiveEditor.codebox.Language = Language.Custom;
-            ActiveEditor.codebox.DescriptionFile = @"Highlighters/C++.xml";
+            ActiveEditor.codebox.DescriptionFile = Application.StartupPath + @"\\Highlighters\\C++.xml";
             this.mitext.Checked = false;
             this.mias.Checked = false;
             this.mibatch.Checked = false;
@@ -1146,7 +1144,7 @@ namespace SS.Ynote.Classic
         private void mipython_Click(object sender, EventArgs e)
         {
             ActiveEditor.codebox.Language = Language.Custom;
-            ActiveEditor.codebox.DescriptionFile = "Highlighters/Python.xml";
+            ActiveEditor.codebox.DescriptionFile = Application.StartupPath + "\\Highlighters\\Python.xml";
             this.mitext.Checked = false;
             this.mias.Checked = false;
             this.milua.Checked = false;
@@ -1198,7 +1196,7 @@ namespace SS.Ynote.Classic
         private void miruby_Click(object sender, EventArgs e)
         {
             ActiveEditor.codebox.Language = Language.Custom;
-            ActiveEditor.codebox.DescriptionFile = "Highlighters/Ruby.xml";
+            ActiveEditor.codebox.DescriptionFile = Application.StartupPath + "\\Highlighters\\Ruby.xml";
             this.mitext.Checked = false;
             this.mias.Checked = false;
             this.mibatch.Checked = false;
@@ -1298,6 +1296,33 @@ namespace SS.Ynote.Classic
             ActiveEditor.codebox.RightBracket2 = ')';
 
         }
+        void PythonRubyFolding(FastColoredTextBox fctb, TextChangedEventArgs e)
+        {
+            //delete all markers
+            fctb.Range.ClearFoldingMarkers();
+
+            var currentIndent = 0;
+            var lastNonEmptyLine = 0;
+
+            for (int i = 0; i < fctb.LinesCount; i++)
+            {
+                var line = fctb[i];
+                var spacesCount = line.StartSpacesCount;
+                if (spacesCount == line.Count) //empty line
+                    continue;
+
+                if (currentIndent < spacesCount)
+                    //append start folding marker
+                    fctb[lastNonEmptyLine].FoldingStartMarker = "m" + currentIndent;
+                else
+                    if (currentIndent > spacesCount)
+                        //append end folding marker
+                        fctb[lastNonEmptyLine].FoldingEndMarker = "m" + spacesCount;
+
+                currentIndent = spacesCount;
+                lastNonEmptyLine = i;
+            }
+        }
         void QBHighlight(Range r)
         {
             r.tb.LeftBracket = '(';
@@ -1330,6 +1355,11 @@ namespace SS.Ynote.Classic
             if (this.miqb.Checked == true)
             {
 
+            }
+            if (this.mipython.Checked == true | this.miruby.Checked == true)
+            {
+                e.ChangedRange.tb.OnTextChanged(e.ChangedRange.tb.Range);
+                PythonRubyFolding(e.ChangedRange.tb, e);
             }
         }
         #endregion
@@ -1447,7 +1477,13 @@ namespace SS.Ynote.Classic
             Settings.Default.File = ActiveEditor.Name;}
             }
             catch (System.Exception ex) { Console.WriteLine(ex.Message); }
+            foreach (ToolStripMenuItem item in mirecentfiles.DropDownItems)
+            {
+                mru.Add(item.Text);
+            }
+            Settings.Default.RecentFiles = mru.ToArray();
             Settings.Default.Save();
+
 
         }
         protected override void OnClosing(CancelEventArgs e)
@@ -1606,6 +1642,15 @@ namespace SS.Ynote.Classic
                 AppContext.ConfigurationFile = new ConfigurationFile();
                 AppContext.ConfigurationFile.Save(Settings.Default.PluginConfigFile);
             }
+            if (!(Settings.Default.RecentFiles == null))
+            {
+                foreach (string file in Settings.Default.RecentFiles)
+                {
+                    ToolStripMenuItem m = new ToolStripMenuItem();
+                    m.Text = file;
+                    this.mirecentfiles.DropDownItems.Add(m);
+                }
+            }
         }
         private void LoadPlugins(IEnumerable<string> assemblyPaths)
         {
@@ -1670,7 +1715,7 @@ namespace SS.Ynote.Classic
         private void luaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ActiveEditor.codebox.Language = Language.Custom;
-            ActiveEditor.codebox.DescriptionFile = @"Highlighters/Lua.xml";
+            ActiveEditor.codebox.DescriptionFile = Application.StartupPath + @"\\Highlighters\\Lua.xml";
             this.mitext.Checked = false;
             this.milua.Checked = true;
             this.mias.Checked = false;
@@ -1966,18 +2011,16 @@ namespace SS.Ynote.Classic
 
         private void checkForUpdatesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AutoUpdater.LetUserSelectRemindLater = true;
-            AutoUpdater.RemindLaterTimeSpan = AutoUpdater.RemindLaterFormat.Minutes;
-            AutoUpdater.RemindLaterAt = 10;
-            URL URL = new URL("http://sscorps.webs.com/ynoteclassic/2.5.xml");
-            if (URL.IsValid == true)
+            try
             {
-                AutoUpdater.Start("http://sscorps.webs.com/ynoteclassic/2.5.xml");
-            }
-            else
-            {
-                MessageBox.Show("No Updates Available");
-            }
+              AutoUpdater.LetUserSelectRemindLater = true;
+              AutoUpdater.RemindLaterTimeSpan = AutoUpdater.RemindLaterFormat.Minutes;
+              AutoUpdater.RemindLaterAt = 10;
+              AutoUpdater.Start("http://www.sscorps.tk/ynoteclassic/2.5.xml");
+            
+              }catch(Exception ex){
+                MessageBox.Show("No Updates Found!");
+             }
         }
 
         private void daToolStripMenuItem_Click(object sender, EventArgs e)
@@ -2160,7 +2203,7 @@ namespace SS.Ynote.Classic
 
         private void textToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.OpenFile(@"Highlighters/Test.xml", sender, e);
+            this.OpenFile(@"Highlighters/Text.xml", sender, e);
         }
 
         private void cToolStripMenuItem_Click(object sender, EventArgs e)
@@ -2204,20 +2247,6 @@ namespace SS.Ynote.Classic
                 {
                     OpenFile(file, sender, e);
                 }
-            }
-        }
-
-        private void fromArchiveToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            SS.Ynote.Engine.Compression.ZipManager UnZipper = new SS.Ynote.Engine.Compression.ZipManager();
-            OpenFileDialog o = new OpenFileDialog();
-            o.Filter = "Zip Archives (*.zip)|*.zip";
-            o.ShowDialog();
-            UnZipper.ExtractFilesFromZip(o.FileName, Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\SS\\Ynote\\Archives\\",null);
-            string[] files = Directory.GetFiles(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\SS\\Ynote\\Archives\\");
-            foreach (string file in files)
-            {
-                OpenFile(file, sender, e);
             }
         }
 
@@ -2514,5 +2543,61 @@ namespace SS.Ynote.Classic
                File.WriteAllText(s.FileName, HTML);
            }
        }
+       private void RemoveLineEndings_Click(object sender, EventArgs e)
+       {
+           string text = ActiveEditor.codebox.Text;
+           ActiveEditor.codebox.Text = text.Replace(System.Environment.NewLine, "");
+       }
+       private void Trasparent_Click(object sender, EventArgs e)
+       {
+           if (Trasparent.Checked == true)
+               this.Opacity = 0.6;
+           else if (Trasparent.Checked == false)
+               this.Opacity = 1.0;
+       }
+       private void OpenBinding_Click(object sender, EventArgs e)
+       {
+           OpenFileDialog o = new OpenFileDialog();
+           o.Filter = "All Files(*.*)|*.*|Text Files(*.txt)|*.txt|XML Files (*.xml)|*.xml|XML Schema Definition File(*.xsd)|*.xsd|Log File (*.log)|*.log|HTML Document (*.html),(*.xhtml),(*.shtml)|*.html;*.xhtml;*.shtml|ASP.NET File(*.asp),(*.aspx)|*.asp;*.aspx|PHP Document (*.php)|*.php|Cascading Style Sheet (*.css)|*.css|Javascript File (*.js)|*.js|QBasic File(*.bas)|*.bas|Visual Basic File (*.vb)|*.vb|Python File (*.py)|*.py|Ruby File(*.ruby)|*.ruby|Lua File(*.lua)|Flash Actionscript file(*.as)|*.as|C# Source File(*.cs)|*.cs|C Source File(*.c)|C++ Source File (*.cpp)|*.cpp|C++ Header File(*.h)|*.h";
+           o.Title = "Open Binding File";
+           o.ShowDialog();
+           if (!(string.IsNullOrEmpty(o.FileName)))
+           {
+               Editor edit = new Editor();
+               edit.Text = Path.GetFileName(o.FileName);
+               edit.Name = o.FileName;
+               edit.codebox.OpenBindingFile(o.FileName, Encoding.Default);
+               edit.Show(dockPanel);
+           }
+           
+       }
+       private void SaveBinding_Click(object sender, EventArgs e)
+       {
+           if (ActiveEditor.Name != "Editor")
+           {
+               ActiveEditor.codebox.SaveToFile(ActiveEditor.Name, Encoding.Default);
+           }
+           else
+           {
+               SaveFileDialog s = new SaveFileDialog();
+               s.Filter = "All Files(*.*)|*.*|Text Files(*.txt)|*.txt|XML Files (*.xml)|*.xml|XML Schema Definition File(*.xsd)|*.xsd|Log File (*.log)|*.log|HTML Document (*.html),(*.xhtml),(*.shtml)|*.html;*.xhtml;*.shtml|ASP.NET File(*.asp),(*.aspx)|*.asp;*.aspx|PHP Document (*.php)|*.php|Cascading Style Sheet (*.css)|*.css|Javascript File (*.js)|*.js|QBasic File(*.bas)|*.bas|Visual Basic File (*.vb)|*.vb|Python File (*.py)|*.py|Ruby File(*.ruby)|*.ruby|Lua File(*.lua)|Flash Actionscript file(*.as)|*.as|C# Source File(*.cs)|*.cs|C Source File(*.c)|C++ Source File (*.cpp)|*.cpp|C++ Header File(*.h)|*.h";
+               s.Title = "Save Binding File";
+               s.ShowDialog();
+               if (!(string.IsNullOrEmpty(s.FileName)))
+               {
+                   ActiveEditor.codebox.SaveToFile(s.FileName, Encoding.Default);
+               }
+           }
+       }
+       private void CloseBinding_Click(object sender, EventArgs e)
+       {
+           try
+           {
+               ActiveEditor.codebox.CloseBindingFile();
+               ActiveEditor.Close();
+           }
+           catch (Exception ex) { }
+       }
+        #endregion
     }
 }

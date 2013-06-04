@@ -1,0 +1,544 @@
+>>printToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>copyToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>fromRTFToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>macroexecm.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>hiddenCharsToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator30.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>Menustrip.ZOrder,2
+saveToolStripButton.Size,23, 22
+>>pythonToolStripMenuItem.Name,pythonToolStripMenuItem
+>>saveToolStripMenuItem.Name,saveToolStripMenuItem
+>>openSessionToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>foldAllToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>Menustrip.Name,Menustrip
+openToolStripButton.Size,23, 22
+>>minimizeToSystemTrayToolStripMenuItem.Name,minimizeToSystemTrayToolStripMenuItem
+>>toolStripSeparator14.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator16.Name,toolStripSeparator16
+>>fullScreenToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>autoCompleteMenuToolStripMenuItem.Name,autoCompleteMenuToolStripMenuItem
+>>launchInChromeToolStripMenuItem.Name,launchInChromeToolStripMenuItem
+>>javascriptToolStripMenuItem.Name,javascriptToolStripMenuItem
+>>toolStripSeparator33.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>macroexec.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>actionscriptToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>settingsToolStripMenuItem1.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>mistatusbar.Name,mistatusbar
+>>toolStripStatusLabel10.Name,toolStripStatusLabel10
+>>mirecentfiles.Name,mirecentfiles
+>>gotobookmark.Type,System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>alwaysOnTopToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>editAutoCompleteMenuToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>foldSelectedToolStripMenuItem.Name,foldSelectedToolStripMenuItem
+>>mijava.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>navigationToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator8.Name,toolStripSeparator8
+>>toolStripSeparator36.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>duplicateLineToolStripMenuItem.Name,duplicateLineToolStripMenuItem
+>>wordToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>miphp.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>actionscriptToolStripMenuItem.Name,actionscriptToolStripMenuItem
+toolstrip.Location,0, 24
+>>goWordRightToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator20.Name,toolStripSeparator20
+>>insertToolStripMenuItem1.Name,insertToolStripMenuItem1
+>>miasp.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator.Name,toolStripSeparator
+>>findToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>fullScreenToolStripMenuItem.Name,fullScreenToolStripMenuItem
+>>saveAsToolStripMenuItem.Name,saveAsToolStripMenuItem
+>>setSelectedTextAsWritableToolStripMenuItem.Name,setSelectedTextAsWritableToolStripMenuItem
+>>toolStripSeparator22.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>importToolStripMenuItem.Name,importToolStripMenuItem
+>>toolStripStatusLabel1.Type,System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+NotifyIcon.Visible,True
+>>toolStripButton2.Type,System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>xMLToolStripMenuItem.Name,xMLToolStripMenuItem
+>>$this.Name,Main
+toolStripSeparator7.Size,6, 25
+>>micpp.Name,micpp
+>>toolStripSeparator17.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>commentToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator29.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator21.Name,toolStripSeparator21
+>>saveCurrentRecordedMacroToolStripMenuItem.Name,saveCurrentRecordedMacroToolStripMenuItem
+>>visitProjectPageToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripStatusLabel5.Type,System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator17.Name,toolStripSeparator17
+>>Stats.Name,Stats
+>>toolStripSeparator29.Name,toolStripSeparator29
+>>goWordLeftToolStripMenuItem.Name,goWordLeftToolStripMenuItem
+>>editAutoCompleteMenuToolStripMenuItem.Name,editAutoCompleteMenuToolStripMenuItem
+>>cutToolStripMenuItem.Name,cutToolStripMenuItem
+>>pasteToolStripButton.Name,pasteToolStripButton
+>>exportToolStripMenuItem.Name,exportToolStripMenuItem
+>>foldingToolStripMenuItem.Name,foldingToolStripMenuItem
+>>commentToolStripMenuItem.Name,commentToolStripMenuItem
+>>zoomToolStripMenuItem.Name,zoomToolStripMenuItem
+>>increaseToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>clipboardHistoryToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator24.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>removeWordRightToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator39.Name,toolStripSeparator39
+>>toolStripSeparator10.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>NotifyIcon.Name,NotifyIcon
+>>addToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>mias.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+dockPanel.Location,0, 49
+>>lblencoding.Name,lblencoding
+>>removeToolStripMenuItem.Name,removeToolStripMenuItem
+>>runToolStripMenuItem.Name,runToolStripMenuItem
+>>pHPToolStripMenuItem.Name,pHPToolStripMenuItem
+>>toolStripSeparator13.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>startingSnippetsToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>fromArchiveToolStripMenuItem.Name,fromArchiveToolStripMenuItem
+>>emptyColumnsToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>editToolStripMenuItem.Name,editToolStripMenuItem
+>>toolStripSeparator25.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>rubyToolStripMenuItem.Name,rubyToolStripMenuItem
+>>zoomOutToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>fromDirectoryToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripMenuItem1.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>helpToolStripButton.Name,helpToolStripButton
+>>pluginTreeToolStripMenuItem.Name,pluginTreeToolStripMenuItem
+>>toolStripSeparator16.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator10.Name,toolStripSeparator10
+>>bingSearchToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>batchToolStripMenuItem1.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator9.Name,toolStripSeparator9
+>>lineToolStripMenuItem.Name,lineToolStripMenuItem
+>>cloneDocumentToolStripMenuItem.Name,cloneDocumentToolStripMenuItem
+>>charToolStripMenuItem.Name,charToolStripMenuItem
+>>unFoldAllToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>wordWrapToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>aboutToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripStatusLabel6.Type,System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>javascriptToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator5.Name,toolStripSeparator5
+>>mitext.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>mibatch.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>cToolStripMenuItem1.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>micpp.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>openContainingFolderToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>searchToolStripMenuItem1.Name,searchToolStripMenuItem1
+>>moveSelectedLinesDownToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+statusStrip.TabIndex,2
+>>micase.Name,micase
+>>viewToolStripMenuItem.Name,viewToolStripMenuItem
+>>launchInBrowserToolStripMenuItem.Name,launchInBrowserToolStripMenuItem
+>>cutToolStripButton.Name,cutToolStripButton
+>>foldSelectedToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator28.Name,toolStripSeparator28
+>>navigateToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>hTMLToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator31.Name,toolStripSeparator31
+>>fileToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator19.Name,toolStripSeparator19
+>>toolStripSeparator12.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>hTMLToolStripMenuItem1.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>newToolStripMenuItem.Name,newToolStripMenuItem
+>>decreaseToolStripMenuItem.Name,decreaseToolStripMenuItem
+>>pageSetupToolStripMenuItem.Name,pageSetupToolStripMenuItem
+>>mixml.Name,mixml
+>>macroexecm.Name,macroexecm
+>>removeEmptyLinesToolStripMenuItem.Name,removeEmptyLinesToolStripMenuItem
+>>toolStripSeparator32.Name,toolStripSeparator32
+hTMLToolStripMenuItem1.Size,67, 22
+>>xHTMLToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>saveToolStripButton.Name,saveToolStripButton
+>>toolStripSeparator2.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>columnEditorToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+lblencoding.Size,33, 17
+toolStripButton2.Size,23, 22
+>>searchToolStripMenuItem.Name,searchToolStripMenuItem
+>>luaToolStripMenuItem.Name,luaToolStripMenuItem
+>>saveSessionToolStripMenuItem1.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator19.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>cutToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripStatusLabel4.Name,toolStripStatusLabel4
+>>summaryToolStripMenuItem.Name,summaryToolStripMenuItem
+Menustrip.Location,0, 0
+>>macrostart.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>saveAllToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+dockPanel.Dock,Fill
+>>wordWrapToolStripMenuItem.Name,wordWrapToolStripMenuItem
+>>toolStripSeparator23.Name,toolStripSeparator23
+>>goWordLeftWithSelectionToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripStatusLabel2.Name,toolStripStatusLabel2
+>>mihtml.Name,mihtml
+>>charToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>exitToolStripMenuItem1.Name,exitToolStripMenuItem1
+>>incrementalSearcherToolStripMenuItem.Name,incrementalSearcherToolStripMenuItem
+toolStripSeparator6.Size,6, 25
+>>importToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>luaToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripMenuItem7.Name,toolStripMenuItem7
+>>toolStripStatusLabel1.Name,toolStripStatusLabel1
+>>mics.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>milua.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>newToolStripButton.Type,System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>viewToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>xMLToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripButton2.Name,toolStripButton2
+>>wordToolStripMenuItem.Name,wordToolStripMenuItem
+>>toolStripSeparator26.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>goToToolStripMenuItem.Name,goToToolStripMenuItem
+>>pasteToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>searchToolStripMenuItem1.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator3.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>zToolStripMenuItem.Name,zToolStripMenuItem
+openToolStripMenuItem.Text,Open
+>>fileToolStripMenuItem.Name,fileToolStripMenuItem
+>>runToolStripMenuItem1.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+toolStripSeparator36.Size,6, 25
+>>helpToolStripMenuItem.Name,helpToolStripMenuItem
+>>goWordRightWithSelectionToolStripMenuItem.Name,goWordRightWithSelectionToolStripMenuItem
+>>miqb.Name,miqb
+>>dockPanel.ZOrder,2
+>>toolStripStatusLabel4.Type,System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Menustrip.TabIndex,4
+>>statusStrip.Parent,$this
+>>navigateForwardToolStripMenuItem.Name,navigateForwardToolStripMenuItem
+toolStripButton1.Size,23, 22
+>>toolStripSeparator1.Name,toolStripSeparator1
+>>textToolStripMenuItem.Name,textToolStripMenuItem
+>>clipboardHistoryToolStripMenuItem.Name,clipboardHistoryToolStripMenuItem
+>>toolStripSeparator11.Name,toolStripSeparator11
+newToolStripMenuItem.Text,New
+>>pluginCentralToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>importToolStripMenuItem1.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator36.Name,toolStripSeparator36
+>>toolStripSeparator37.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>checkForUpdatesToolStripMenuItem.Name,checkForUpdatesToolStripMenuItem
+>>saveSessionToolStripMenuItem1.Name,saveSessionToolStripMenuItem1
+>>qBasicToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>gotToolStripMenuItem.Name,gotToolStripMenuItem
+>>toolStripMenuItem11.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>Menustrip.Parent,$this
+>>btZoom.Name,btZoom
+>>raiseIssueToolStripMenuItem.Name,raiseIssueToolStripMenuItem
+>>toolStripSeparator6.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>searchToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>printToolStripMenuItem.Name,printToolStripMenuItem
+>>toolStripMenuItem6.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>openSessionToolStripMenuItem.Name,openSessionToolStripMenuItem
+>>startingSnippetsToolStripMenuItem.Name,startingSnippetsToolStripMenuItem
+>>copyToolStripButton.Name,copyToolStripButton
+>>saveToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>dockPanel.Type,WeifenLuo.WinFormsUI.Docking.DockPanel, WeifenLuo.WinFormsUI.Docking, Version=2.7.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481
+>>statusStrip.ZOrder,0
+>>openToolStripButton.Name,openToolStripButton
+>>toolStripSeparator22.Name,toolStripSeparator22
+>>redoToolStripMenuItem.Name,redoToolStripMenuItem
+>>propertiesToolStripMenuItem.Name,propertiesToolStripMenuItem
+>>runToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator7.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>visitProjectPageToolStripMenuItem.Name,visitProjectPageToolStripMenuItem
+>>toolStripSeparator27.Name,toolStripSeparator27
+>>toolStripSeparator23.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>helpToolStripButton.Type,System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>saveToolStripButton.Type,System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>gotToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>mivb.Name,mivb
+>>settingsToolStripMenuItem.Name,settingsToolStripMenuItem
+>>statusStrip.Name,statusStrip
+>>foldAllToolStripMenuItem.Name,foldAllToolStripMenuItem
+dockPanel.Size,869, 346
+>>setSelectedTextAsWritableToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>duplicateLineToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>newToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>fromURLToolStripMenuItem.Name,fromURLToolStripMenuItem
+>>toolStripStatusLabel10.Type,System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripMenuItem9.Name,toolStripMenuItem9
+>>moveSelectedLinesDownToolStripMenuItem.Name,moveSelectedLinesDownToolStripMenuItem
+>>runToolStripMenuItem1.Name,runToolStripMenuItem1
+>>insertToolStripMenuItem.Name,insertToolStripMenuItem
+>>copyToolStripMenuItem.Name,copyToolStripMenuItem
+>>toolStripMenuItem8.Name,toolStripMenuItem8
+>>toolStripButton1.Name,toolStripButton1
+>>goWordLeftToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>wikipediaSearchToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>removeToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>googleSearchToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>launchInCommandPromptToolStripMenuItem.Name,launchInCommandPromptToolStripMenuItem
+>>mijs.Name,mijs
+>>toolStripSeparator1.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>removeWordLeftToolStripMenuItem.Name,removeWordLeftToolStripMenuItem
+>>editHighlightingToolStripMenuItem.Name,editHighlightingToolStripMenuItem
+>>toolStripMenuItem6.Name,toolStripMenuItem6
+>>qBasicToolStripMenuItem.Name,qBasicToolStripMenuItem
+>>openCurrentDirCommandPromptToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>decreaseToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>redoToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>lblencoding.Type,System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>saveAsToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>daToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>macrostop.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>exportToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>foldingToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>pluginCentralToolStripMenuItem.Name,pluginCentralToolStripMenuItem
+>>miruby.Name,miruby
+>>toolStripSeparator25.Name,toolStripSeparator25
+>>btZoom.Type,System.Windows.Forms.ToolStripSplitButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>findToolStripMenuItem.Name,findToolStripMenuItem
+>>fromURLToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripMenuItem10.Name,toolStripMenuItem10
+>>mibatch.Name,mibatch
+>>launchInBrowserToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>Stats.Type,System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolstrip.Type,System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+printToolStripButton.Size,23, 22
+>>zoomOutToolStripMenuItem.Name,zoomOutToolStripMenuItem
+>>macrostart.Name,macrostart
+toolStripStatusLabel5.Size,0, 17
+>>miruby.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>indentToolStripMenuItem.Name,indentToolStripMenuItem
+>>toolStripSeparator13.Name,toolStripSeparator13
+>>$this.Type,System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>increaseToolStripMenuItem.Name,increaseToolStripMenuItem
+>>cSSToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>rTFToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripMenuItem11.Name,toolStripMenuItem11
+>>toolStripMenuItem8.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator21.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>rTFToolStripMenuItem.Name,rTFToolStripMenuItem
+>>raiseIssueToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>editingModeToolStripMenuItem.Name,editingModeToolStripMenuItem
+>>toolStripSeparator33.Name,toolStripSeparator33
+>>toolStripTextBox1.Type,System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>micss.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>micss.Name,micss
+>>toolStripStatusLabel3.Type,System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripStatusLabel7.Type,System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>dockPanel.Name,dockPanel
+>>toolStripSeparator12.Name,toolStripSeparator12
+pasteToolStripButton.Size,23, 22
+>>toolStripSeparator38.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator4.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator31.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>goToToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>saveAllToolStripMenuItem.Name,saveAllToolStripMenuItem
+>>alwaysOnTopToolStripMenuItem.Name,alwaysOnTopToolStripMenuItem
+>>gotobookmark.Name,gotobookmark
+>>micustom.Name,micustom
+>>wikipediaSearchToolStripMenuItem.Name,wikipediaSearchToolStripMenuItem
+>>setSelectedTextAsReadonlyToolStripMenuItem.Name,setSelectedTextAsReadonlyToolStripMenuItem
+>>openToolStripButton.Type,System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>aboutToolStripMenuItem.Name,aboutToolStripMenuItem
+dockPanel.TabIndex,0
+>>macrostop.Name,macrostop
+>>toolStripSeparator5.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>miasp.Name,miasp
+>>miqb.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>replaceToolStripMenuItem.Name,replaceToolStripMenuItem
+>>dockPanel.Parent,$this
+toolStripStatusLabel2.Size,0, 17
+copyToolStripButton.Size,23, 22
+>>preferencesToolStripMenuItem.Name,preferencesToolStripMenuItem
+>>navigateBackwardsToolStripMenuItem.Name,navigateBackwardsToolStripMenuItem
+toolStripMenuItem1.Size,152, 22
+>>toLowerToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>launchInCommandPromptToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>removeCurrentLineToolStripMenuItem.Name,removeCurrentLineToolStripMenuItem
+>>unFoldSelectedToolStripMenuItem.Name,unFoldSelectedToolStripMenuItem
+>>minimizeToSystemTrayToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>chooseToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>pHPToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>editingModeToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator24.Name,toolStripSeparator24
+toolStripStatusLabel4.Size,0, 17
+>>preferencesToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>macrosToolStripMenuItem.Name,macrosToolStripMenuItem
+>>toolStripStatusLabel5.Name,toolStripStatusLabel5
+>>cCToolStripMenuItem.Name,cCToolStripMenuItem
+>>toolStripSeparator15.Name,toolStripSeparator15
+>>propertiesToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator2.Name,toolStripSeparator2
+>>bookmarksToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>mistatusbar.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+$this.AutoScaleDimensions,6, 13
+>>importMacroFromFileToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>mijs.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>launchInFirefoxToolStripMenuItem.Name,launchInFirefoxToolStripMenuItem
+>>toolStripSeparator34.Name,toolStripSeparator34
+>>toolStripStatusLabel6.Name,toolStripStatusLabel6
+>>toolStripSeparator27.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>incrementalSearcherToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>navigateToolStripMenuItem.Name,navigateToolStripMenuItem
+>>batchToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>undoToolStripMenuItem.Name,undoToolStripMenuItem
+>>toolStripSeparator35.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>mivb.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator39.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toUpperToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>macroexec.Name,macroexec
+>>mics.Name,mics
+>>toolStripSeparator3.Name,toolStripSeparator3
+>>printToolStripButton.Type,System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator18.Name,toolStripSeparator18
+>>settingsToolStripMenuItem1.Name,settingsToolStripMenuItem1
+>>toolStripSeparator8.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>removeWordLeftToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>langaugeToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>chooseToolStripMenuItem.Name,chooseToolStripMenuItem
+>>restartToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>navigateBackwardsToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>settingsToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolstrip.Parent,$this
+>>mitoolbar.Name,mitoolbar
+>>moveSelectedLinesUpToolStripMenuItem.Name,moveSelectedLinesUpToolStripMenuItem
+>>toolStripMenuItem10.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>insertToolStripMenuItem1.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>zoomToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>goWordRightToolStripMenuItem.Name,goWordRightToolStripMenuItem
+>>cSSToolStripMenuItem.Name,cSSToolStripMenuItem
+>>pasteToolStripMenuItem.Name,pasteToolStripMenuItem
+>>toolStripSeparator9.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>hTMLToolStripMenuItem.Name,hTMLToolStripMenuItem
+>>cCToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator28.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+toolStripStatusLabel6.Size,0, 17
+>>toolStripButton1.Type,System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>autoCompleteMenuToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>statusStrip.Type,System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripMenuItem9.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>NotifyIcon.Type,System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator6.Name,toolStripSeparator6
+>>toolStripSeparator11.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>cToolStripMenuItem.Name,cToolStripMenuItem
+>>editToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>moveSelectedLinesUpToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>launToolStripMenuItem.Name,launToolStripMenuItem
+>>exitToolStripMenuItem1.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>goToEndToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>fromDirectoryToolStripMenuItem.Name,fromDirectoryToolStripMenuItem
+>>newToolStripButton.Name,newToolStripButton
+propertiesToolStripMenuItem.Text,Properties
+>>removeToolStripMenuItem1.Name,removeToolStripMenuItem1
+>>launToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>unFoldAllToolStripMenuItem.Name,unFoldAllToolStripMenuItem
+>>mias.Name,mias
+>>unFoldSelectedToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>mixml.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator7.Name,toolStripSeparator7
+>>toolStripMenuItem7.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>bookmarksToolStripMenuItem.Name,bookmarksToolStripMenuItem
+>>batchToolStripMenuItem.Name,batchToolStripMenuItem
+>>milua.Name,milua
+>>indentToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolstrip.Name,toolstrip
+>>pasteToolStripButton.Type,System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator14.Name,toolStripSeparator14
+>>launchInFirefoxToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripMenuItem1.Name,toolStripMenuItem1
+>>navigationToolStripMenuItem.Name,navigationToolStripMenuItem
+>>hiddenCharsToolStripMenuItem.Name,hiddenCharsToolStripMenuItem
+>>fromRTFToolStripMenuItem.Name,fromRTFToolStripMenuItem
+>>removeCurrentLineToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>saveCurrentRecordedMacroToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>fromArchiveToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>insertToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>textToSpeechToolStripMenuItem.Name,textToSpeechToolStripMenuItem
+>>hTMLToolStripMenuItem1.Name,hTMLToolStripMenuItem1
+>>xHTMLToolStripMenuItem.Name,xHTMLToolStripMenuItem
+>>zoomInToolStripMenuItem.Name,zoomInToolStripMenuItem
+>>cutToolStripButton.Type,System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>daToolStripMenuItem.Name,daToolStripMenuItem
+>>selectAllToolStripMenuItem.Name,selectAllToolStripMenuItem
+>>toolStripStatusLabel7.Name,toolStripStatusLabel7
+>>toolStripStatusLabel3.Name,toolStripStatusLabel3
+toolstrip.TabIndex,3
+>>toolStripStatusLabel2.Type,System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>javaToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>goWordRightWithSelectionToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>misql.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator34.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripTextBox1.Name,toolStripTextBox1
+>>goWordLeftWithSelectionToolStripMenuItem.Name,goWordLeftWithSelectionToolStripMenuItem
+>>emptyLinesToolStripMenuItem.Name,emptyLinesToolStripMenuItem
+>>hotKeysToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>selectAllToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>mitext.Name,mitext
+toolStripSeparator21.Size,6, 25
+>>openCurrentDirCommandPromptToolStripMenuItem.Name,openCurrentDirCommandPromptToolStripMenuItem
+>>mihtml.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>zoomInToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator26.Name,toolStripSeparator26
+>>toolstrip.ZOrder,1
+>>micase.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>undoToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>openToolStripMenuItem.Name,openToolStripMenuItem
+>>toolStripSeparator15.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>launchInChromeToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>removeWordRightToolStripMenuItem.Name,removeWordRightToolStripMenuItem
+>>restartToolStripMenuItem.Name,restartToolStripMenuItem
+>>toLowerToolStripMenuItem.Name,toLowerToolStripMenuItem
+>>helpToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>checkForUpdatesToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+cutToolStripButton.Size,23, 22
+>>javaToolStripMenuItem.Name,javaToolStripMenuItem
+>>toolStripSeparator38.Name,toolStripSeparator38
+>>toolStripSeparator20.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>Menustrip.Type,SS.Ynote.Engine.Framework.Plugins.Controls.PluginMenuStrip, SS.Ynote.Engine, Version=2.3.1.2, Culture=neutral, PublicKeyToken=null
+>>removeToolStripMenuItem1.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>clearAllToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>mitoolbar.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>importToolStripMenuItem1.Name,importToolStripMenuItem1
+>>setSelectedTextAsReadonlyToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator30.Name,toolStripSeparator30
+>>textToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>cloneDocumentToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>emptyColumnsToolStripMenuItem.Name,emptyColumnsToolStripMenuItem
+toolStripStatusLabel3.Size,0, 17
+>>openToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+minimizeToSystemTrayToolStripMenuItem.Size,254, 22
+>>addToolStripMenuItem.Name,addToolStripMenuItem
+>>replaceToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>columnEditorToolStripMenuItem.Name,columnEditorToolStripMenuItem
+>>zToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>mirecentfiles.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>restoreDefaultZoomToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>mipython.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>macrodataclear.Name,macrodataclear
+>>mijava.Name,mijava
+>>goToEndToolStripMenuItem.Name,goToEndToolStripMenuItem
+>>miphp.Name,miphp
+>>hotKeysToolStripMenuItem.Name,hotKeysToolStripMenuItem
+>>misql.Name,misql
+>>bingSearchToolStripMenuItem.Name,bingSearchToolStripMenuItem
+>>mipython.Name,mipython
+>>editHighlightingToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator4.Name,toolStripSeparator4
+>>textToSpeechToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>googleSearchToolStripMenuItem.Name,googleSearchToolStripMenuItem
+>>pythonToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>macrodataclear.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator18.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>navigateForwardToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toUpperToolStripMenuItem.Name,toUpperToolStripMenuItem
+>>copyToolStripButton.Type,System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>summaryToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>lineToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+helpToolStripButton.Size,23, 22
+>>emptyLinesToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>printToolStripButton.Name,printToolStripButton
+newToolStripButton.Size,23, 22
+>>rubyToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>removeEmptyLinesToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>cToolStripMenuItem1.Name,cToolStripMenuItem1
+>>cToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>micustom.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>macrosToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator37.Name,toolStripSeparator37
+>>pageSetupToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>restoreDefaultZoomToolStripMenuItem.Name,restoreDefaultZoomToolStripMenuItem
+>>toolStripSeparator35.Name,toolStripSeparator35
+>>importMacroFromFileToolStripMenuItem.Name,importMacroFromFileToolStripMenuItem
+>>batchToolStripMenuItem1.Name,batchToolStripMenuItem1
+>>langaugeToolStripMenuItem.Name,langaugeToolStripMenuItem
+>>clearAllToolStripMenuItem.Name,clearAllToolStripMenuItem
+>>pluginTreeToolStripMenuItem.Type,System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+>>toolStripSeparator32.Type,System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+toolStripStatusLabel1.Size,0, 17
+>>openContainingFolderToolStripMenuItem.Name,openContainingFolderToolStripMenuItem

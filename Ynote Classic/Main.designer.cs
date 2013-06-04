@@ -85,7 +85,6 @@
             this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
             this.fromRTFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fromDirectoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.fromArchiveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rTFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -231,6 +230,10 @@
             this.chooseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.settingsToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator20 = new System.Windows.Forms.ToolStripSeparator();
+            this.Binding = new System.Windows.Forms.ToolStripMenuItem();
+            this.OpenBinding = new System.Windows.Forms.ToolStripMenuItem();
+            this.SaveBinding = new System.Windows.Forms.ToolStripMenuItem();
+            this.CloseBinding = new System.Windows.Forms.ToolStripMenuItem();
             this.editAutoCompleteMenuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editHighlightingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.batchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -647,6 +650,19 @@
             this.helpToolStripMenuItem});
             this.Menustrip.Name = "Menustrip";
             // 
+            this.OpenBinding.Text = "Open Binding File";
+            this.OpenBinding.Click += new System.EventHandler(OpenBinding_Click);
+            this.SaveBinding.Text = "Save Binding File";
+            this.SaveBinding.Click += new System.EventHandler(SaveBinding_Click);
+            this.CloseBinding.Text = "Close Binding File";
+            this.CloseBinding.Click += new System.EventHandler(CloseBinding_Click);
+            this.Binding.Name = "Binding";
+            this.Binding.Text = "Binding";
+            this.Binding.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[]{
+                OpenBinding,
+                SaveBinding,
+                CloseBinding
+            });
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.AccessibleDescription = null;
@@ -657,6 +673,7 @@
             this.newToolStripMenuItem,
             this.openToolStripMenuItem,
             this.openSessionToolStripMenuItem,
+            this.Binding,
             this.toolStripSeparator22,
             this.propertiesToolStripMenuItem,
             this.mirecentfiles,
@@ -838,8 +855,7 @@
             this.importToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fromURLToolStripMenuItem,
             this.fromRTFToolStripMenuItem,
-            this.fromDirectoryToolStripMenuItem,
-            this.fromArchiveToolStripMenuItem});
+            this.fromDirectoryToolStripMenuItem});
             this.importToolStripMenuItem1.Name = "importToolStripMenuItem1";
             this.importToolStripMenuItem1.ShortcutKeyDisplayString = null;
             // 
@@ -881,16 +897,6 @@
             this.fromDirectoryToolStripMenuItem.Name = "fromDirectoryToolStripMenuItem";
             this.fromDirectoryToolStripMenuItem.ShortcutKeyDisplayString = null;
             this.fromDirectoryToolStripMenuItem.Click += new System.EventHandler(this.fromDirectoryToolStripMenuItem_Click);
-            // 
-            // fromArchiveToolStripMenuItem
-            // 
-            this.fromArchiveToolStripMenuItem.AccessibleDescription = null;
-            this.fromArchiveToolStripMenuItem.AccessibleName = null;
-            resources.ApplyResources(this.fromArchiveToolStripMenuItem, "fromArchiveToolStripMenuItem");
-            this.fromArchiveToolStripMenuItem.BackgroundImage = null;
-            this.fromArchiveToolStripMenuItem.Name = "fromArchiveToolStripMenuItem";
-            this.fromArchiveToolStripMenuItem.ShortcutKeyDisplayString = null;
-            this.fromArchiveToolStripMenuItem.Click += new System.EventHandler(this.fromArchiveToolStripMenuItem_Click);
             // 
             // exportToolStripMenuItem
             // 
@@ -975,6 +981,10 @@
             this.exitToolStripMenuItem1.ShortcutKeyDisplayString = null;
             this.exitToolStripMenuItem1.Click += new System.EventHandler(this.exitToolStripMenuItem1_Click);
             // 
+            System.Windows.Forms.ToolStripMenuItem RemoveLineEndings = new System.Windows.Forms.ToolStripMenuItem();
+            RemoveLineEndings.Name = "RemoveLineEndings";
+            RemoveLineEndings.Text = "Remove Line Endings";
+            RemoveLineEndings.Click += new System.EventHandler(RemoveLineEndings_Click);
             // editToolStripMenuItem
             // 
             this.editToolStripMenuItem.AccessibleDescription = null;
@@ -1577,7 +1587,8 @@
             this.moveSelectedLinesUpToolStripMenuItem,
             this.duplicateLineToolStripMenuItem,
             this.removeEmptyLinesToolStripMenuItem,
-            this.removeCurrentLineToolStripMenuItem});
+            this.removeCurrentLineToolStripMenuItem,
+            RemoveLineEndings});
             this.lineToolStripMenuItem.Name = "lineToolStripMenuItem";
             this.lineToolStripMenuItem.ShortcutKeyDisplayString = null;
             // 
@@ -1837,6 +1848,10 @@
             resources.ApplyResources(this.toolStripSeparator34, "toolStripSeparator34");
             this.toolStripSeparator34.Name = "toolStripSeparator34";
             // 
+            Trasparent.Name = "Transparent";
+            Trasparent.Text = "Transparent UI";
+            Trasparent.CheckOnClick = true;
+            Trasparent.Click += new System.EventHandler(Trasparent_Click);
             // viewToolStripMenuItem
             // 
             this.viewToolStripMenuItem.AccessibleDescription = null;
@@ -1851,6 +1866,7 @@
             this.minimizeToSystemTrayToolStripMenuItem,
             this.toolStripSeparator35,
             this.zoomToolStripMenuItem,
+            Trasparent,
             this.fullScreenToolStripMenuItem,
             this.toolStripSeparator14,
             this.hiddenCharsToolStripMenuItem,
@@ -3066,7 +3082,6 @@
         private System.Windows.Forms.ToolStripMenuItem fromURLToolStripMenuItem;
         private System.Windows.Forms.ToolStripTextBox toolStripTextBox1;
         private System.Windows.Forms.ToolStripMenuItem fromDirectoryToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem fromArchiveToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem removeCurrentLineToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem commentToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem insertToolStripMenuItem1;
@@ -3105,9 +3120,14 @@
         public System.Windows.Forms.ToolStripMenuItem fullScreenToolStripMenuItem;
         public System.Windows.Forms.NotifyIcon NotifyIcon;
         private System.Windows.Forms.ToolStripMenuItem zToolStripMenuItem;
-        public static WeifenLuo.WinFormsUI.Docking.DockPanel dockPanel = new WeifenLuo.WinFormsUI.Docking.DockPanel();
+        public static  WeifenLuo.WinFormsUI.Docking.DockPanel dockPanel = new WeifenLuo.WinFormsUI.Docking.DockPanel();
+        System.Windows.Forms.ToolStripMenuItem Trasparent = new System.Windows.Forms.ToolStripMenuItem();
 
-
-
+        #region Binding
+        private System.Windows.Forms.ToolStripMenuItem Binding;
+        private System.Windows.Forms.ToolStripMenuItem OpenBinding;
+        private System.Windows.Forms.ToolStripMenuItem SaveBinding;
+        private System.Windows.Forms.ToolStripMenuItem CloseBinding;
+        #endregion
     }
 }

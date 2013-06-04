@@ -88,7 +88,7 @@
             foreach (var item in snippets)
                 menuItemList.Add(new SnippetAutocompleteItem(item));
             var xmldoc = new XmlDocument();
-            xmldoc.Load(@"Configurations\Autocomplete.xml");
+            xmldoc.Load(Application.StartupPath + @"\Configurations\Autocomplete.xml");
             foreach (XmlNode item in xmldoc.SelectNodes("*/autocomplete/item"))
                 menuItemList.Add(new AutocompleteItem(item.InnerText));
         }

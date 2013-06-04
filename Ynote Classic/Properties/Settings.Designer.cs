@@ -358,5 +358,16 @@ namespace SS.Ynote.Classic.Properties {
                 this["Culture"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public string[] RecentFiles {
+            get {
+                return ((string[])(this["RecentFiles"]));
+            }
+            set {
+                this["RecentFiles"] = value;
+            }
+        }
     }
 }
